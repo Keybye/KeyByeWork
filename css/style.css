@@ -1,0 +1,60 @@
+@import "Ani.css";
+body{
+    padding: 0;
+    margin: 0;
+}
+.container{
+     width: 100%;
+     height: 100%;
+     left: 0;right: 0;top: 0;bottom: 0;
+ }
+.center{
+    left: 0;right: 0;top: 0;bottom: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: #dfd7d7;
+    animation: forwards 20s centerAni;
+}
+.top{
+    left: 0;right: 0;top: 0;bottom: 0;
+    width: 0;
+    height: 0;
+    position: fixed;
+    background: #e0e5df;
+    animation: forwards 20s topAni;
+}
+.top1{
+    left: 0;right: 0;top:10%;bottom: 0;
+    width: 0;
+    height: 10%;
+    position: fixed;
+    background: #9ca8b8;
+    animation: forwards 20s top1Ani;
+}
+.left{
+    left: 0;right: 75%;
+    margin: auto;
+    width: 25%;
+    height: 60%;
+    position: fixed;
+    background:#bfbfbf;
+    animation: forwards 20s leftAni;
+}
+.right{
+    left: 75%;right: 0;
+    margin: auto;
+    width: 25%;
+    height: 60%;
+    position: fixed;
+    background: #bfbfbf;
+    animation: forwards 20s rightAni;
+}
+.bottom{
+    left: 0;right: 0;top: 90%;bottom: 0%;
+    height: 10%;
+    width: 100%;
+    position: fixed;
+    background: #f0ebe5;
+    animation: forwards 20s bottomAni;
+}
