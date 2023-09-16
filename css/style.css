@@ -29,7 +29,7 @@ body{
     width: 0;
     height: 10%;
     position: fixed;
-    background: #7B9E7C;
+    background: #6B8C7A;
     animation: forwards 20s top1Ani;
 }
 .left{
@@ -38,7 +38,7 @@ body{
     width: 25%;
     height: 60%;
     position: fixed;
-    background:#6B8C7A;
+    background:#7B9E7C;
     animation: forwards 20s leftAni;
 }
 .right{
@@ -47,7 +47,7 @@ body{
     width: 25%;
     height: 60%;
     position: fixed;
-    background: #6B8C7A;
+    background: #7B9E7C;
     animation: forwards 20s rightAni;
 }
 .bottom{
