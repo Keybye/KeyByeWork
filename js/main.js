@@ -4,3 +4,10 @@ Array(3)
     .forEach(()=>{
         main.insertAdjacentHTML("beforeend", '<div>a</div>')
     })
+function change(){
+    var div=document.getElementById("top");
+    var w=parseInt(div.style.width);
+    var h=parseInt(div.style.height);
+    div.style.width="30%";
+    div.style.height="50%";
+}
