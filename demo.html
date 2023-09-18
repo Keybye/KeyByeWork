@@ -3,11 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" type="text/css" href="css/demo.css">
-    <script src="js/main.js" defer></script>
+    <script src="js/main.js" defer>
+        function changeRect(){
+    var top=document.getElementById('top');
+    var topWidth=parseInt(top.style.width);
+    var topHeight=parseInt(top.style.height);
+    top.style.height=(topHeight+100)+"vw";
+    top.style.width=(topWidth+100)+10-0"vw";
+}
+    </script>
+    <style>
+        button{
+            width: 5vw;
+            height: 5vh;
+            background: cornflowerblue ;
+            border-radius: 3vw;border: none;
+            box-shadow: 0 0 5px 3px rgba(0,0,0,.2);
+        }
+        #top{
+            transition: 2s;
+        }
+        body{
+            width: 100vw;
+            height: 100vh;
+            border: none;
+            margin: 0;padding:0;
+            display: flex;align-items: center;justify-content: center;
+        }
+    </style>
 </head>
 <body>
-<div class="top" id="top"></div>
-<button onclick="change()">改变样式</button>
+<div id="top" style="width: 100px;height: 100px;background: #7B9E7C"></div>
+<button onclick="changeRect()"></button>
 </body>
 </html>

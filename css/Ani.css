@@ -192,3 +192,19 @@
         height: 10%;
     }
 }
+@keyframes ConAni {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+@keyframes textAni {
+    0%{
+    opacity: 1;
+}
+    100%{
+        opacity: 0;
+    }
+}
