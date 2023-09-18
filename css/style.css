@@ -10,6 +10,10 @@ body{
      width: 100%;
      height: 100%;
      left: 0;right: 0;top: 0;bottom: 0;
+     position: static;
+     z-index: 0;
+     opacity: 0;
+     animation: forwards 3s conAni 3s;
  }
 .center{
     left: 0;right: 0;top: 0;bottom: 0;
@@ -17,7 +21,7 @@ body{
     height: 100%;
     position: fixed;
     background: #FAF7ED;
-    animation: forwards 20s centerAni;
+    animation: forwards 20s centerAni 6s;
 }
 .top{
     left: 0;right: 0;top: 0;bottom: 0;
@@ -25,7 +29,7 @@ body{
     height: 0;
     position: fixed;
     background: #305040;
-    animation: forwards 20s topAni;
+    animation: forwards 20s topAni 6s;
 }
 .top1{
     left: 0;right: 0;top:10%;bottom: 0;
@@ -33,31 +37,42 @@ body{
     height: 10%;
     position: fixed;
     background: #6B8C7A;
-    animation: forwards 20s top1Ani;
+    animation: forwards 20s top1Ani 6s;
 }
 .left{
     left: 0;right: 75%;
     margin: auto;
     width: 25%;
-    height: 60%;
+    height: 0%;
     position: fixed;
     background:#7B9E7C;
-    animation: forwards 20s leftAni;
+    animation: forwards 20s leftAni 6s;
 }
 .right{
     left: 75%;right: 0;
     margin: auto;
     width: 25%;
-    height: 60%;
+    height: 0%;
     position: fixed;
     background: #7B9E7C;
-    animation: forwards 20s rightAni;
+    animation: forwards 20s rightAni 6s;
 }
 .bottom{
     left: 0;right: 0;top: 90%;bottom: 0;
     height: 10%;
-    width: 100%;
+    width: 0;
     position: fixed;
     background: #C0D1B0;
-    animation: forwards 20s bottomAni;
+    animation: forwards 20s bottomAni 6s;
+}
+.p{
+    font-size: 60px;
+    color:#777777;
+    font-family: 微软雅黑;
+    height: 30vh;width: 100vw;
+    position: fixed;
+    z-index: 1;
+    top: 0;right: 0;bottom: 0;left: 0;
+    margin: auto;text-align: center;
+    animation: forwards 3s textAni;
 }
