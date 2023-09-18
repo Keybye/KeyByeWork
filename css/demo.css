@@ -2,13 +2,8 @@
     margin: 0;
     padding:0;
 }
-.top{
-    width: 100vw;
-    height: 20vh;
-    background: #7B9E7C;
-}
-button{
-    width: 100px;
-    height: 100px;
-    background: #7B9E7C;
+body{
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }

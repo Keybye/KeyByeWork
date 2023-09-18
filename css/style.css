@@ -17,7 +17,7 @@ body{
     width: 100%;
     height: 100%;
     position: fixed;
-    background: #b0c0d1;
+    background: #faf7ed;
     animation: forwards 20s centerAni 3s;
 }
 .top{
@@ -63,10 +63,15 @@ body{
     animation: forwards 20s bottomAni 3s;
 }
 .text{
-    top: 0;right: 0;left: 0;bottom: 0;
+    color: black;
+    top: 20%;right: 0;left: 0;bottom: 0;
+    margin: 0;
     position: absolute;
+    z-index: 3;
     opacity: 1;
     font-size: 100px;font-weight: bold;
+    width: 100vw;height: 30vh;
+    text-align: center;
     font-family: "阿里巴巴普惠体 2.0 55 Regular";
     animation: 3s forwards textAni;
 }
